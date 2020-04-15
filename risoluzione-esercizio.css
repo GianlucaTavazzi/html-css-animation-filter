@@ -1,0 +1,124 @@
+.ex-1-square {
+    transition: 3s;
+}
+
+.ex-1-square:hover {
+    background: red;
+}
+
+.ex-2-square {
+    transition: 3s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+.ex-3-square {
+    transition: 1s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+.ex-4-square {
+    transition: 3s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+.ex-5-square {
+    transition: 3s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5)
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img{
+    transition: 5s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+}
+
+.ex-8-img{
+    transition: 5s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 20px;
+}
+
+.ex-9-img{
+    transition: 5s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 25px;
+    transform: scale(1.5);
+}
+
+.ex-10-icon{
+    animation: esercizio-10 1s linear infinite;
+}
+@keyframes esercizio-10 {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: esercizio-11 2s linear;
+}
+@keyframes esercizio-11 {
+    0% {
+        transform: rotate(0);
+    }
+    80%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: esercizio-12 2s linear;
+}
+
+@keyframes esercizio-12 {
+    0%{
+        left:20%;
+    }
+    50%{
+        left: 50%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: esercizio-12-2 2s linear;
+}
+
+@keyframes esercizio-12-2 {
+    0%{
+        right:20%;
+    }
+    50%{
+        right: 60%;
+    }
+}
